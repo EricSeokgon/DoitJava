@@ -10,6 +10,6 @@ public class ContinueExample {
                 continue;
             total += num;
         }
-        System.out.println("1부터 100까지의 홀수의 합은: " + total + " 입니ㅣ다.");
+        System.out.println("1부터 100까지의 홀수의 합은: " + total + " 입니다.");
     }
 }
