@@ -1,12 +1,6 @@
 package chapter8;
 
-public class VIPCustomer {
-    private int customerID;
-    private String customerName;
-    private String customerGrade;
-    int bonusPoint;
-    double bonusRatio;
-
+public class VIPCustomer extends Customer{
     private int agentID;
     double saleRatio;
 
