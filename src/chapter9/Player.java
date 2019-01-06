@@ -12,9 +12,9 @@ public class Player {
         return level;
     }
 
-    public void upgradeLevel(Playerlevel level) {
+    public void upgradeLevel(PlayerLevel level) {
         this.level = level;
-        level.showLevelMesage();
+        level.showLevelMessage();
     }
 
     public void play(int count) {
