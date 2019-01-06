@@ -7,9 +7,12 @@ public class Customer {
     int bonusPoint;
     double bonusRatio;
 
-    public Customer() {
+    public Customer(int customerID, String customerName) {
         customerGrade = "SILVER";
         bonusRatio = 0.01;
+    }
+
+    public Customer() {
     }
 
     public int clacPrice(int price) {
