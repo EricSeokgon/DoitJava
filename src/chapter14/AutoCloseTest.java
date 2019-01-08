@@ -6,5 +6,6 @@ public class AutoCloseTest {
         } catch (Exception e) {
             System.out.println("예외 부분입니다.");
         }
+
     }
 }
