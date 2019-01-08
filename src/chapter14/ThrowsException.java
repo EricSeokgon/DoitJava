@@ -13,7 +13,7 @@ public class ThrowsException {
     public static void main(String[] args) {
         ThrowsException test = new ThrowsException();
         try {
-            test.loadClass("a.txt", "java.lang.String");
+            test.loadClass("C:\\Users\\user\\IdeaProjects\\DoitJava\\src\\chapter14\\a.txt", "java.lang.String");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
